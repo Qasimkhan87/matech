@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rayfox_Catalog</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license>AFL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sort products by stock status, move all out of stock products to the bottom.&#xD;
+You can select use or not use it at admin configuration. </summary>
+    <description>Sort products by stock status, move all out of stock products to the bottom.&#xD;
+You can select use or not use it at admin configuration. </description>
+    <notes>Stable Release</notes>
+    <authors><author><name>Ray Zhang</name><user>Ray</user><email>cgzhang@gmail.com</email></author></authors>
+    <date>2012-03-22</date>
+    <time>01:48:49</time>
+    <contents><target name="magecommunity"><dir name="Rayfox"><dir name="Catalog"><dir name="Helper"><file name="Data.php" hash="0a89c4bf7899290d87712d91bd420c3d"/></dir><dir name="Model"><file name="Layer.php" hash="8c9b3f7d46d5f3a8a79f2dd093bb03d5"/><file name=".DS_Store" hash="64ef2c9424e6b3669c041438abea4fdf"/></dir><dir name="etc"><file name="config.xml" hash="368e9984a7bd7c65b63f8152c1cfe8ef"/><file name="system.xml" hash="d11f439589df04a71e8eb8ef047978b1"/></dir><file name=".DS_Store" hash="ce6e6b7b4d09237a2e3c9362b3b30466"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rayfox_Catalog.xml" hash="45279cdc4ceec7308127aae41ec7badd"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
